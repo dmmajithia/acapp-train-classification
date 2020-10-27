@@ -21,6 +21,8 @@ saves = []
 
 while ch!='q':
 	print(i)
+	if i >= len(filelist):
+		break
 	line = filelist[i].split(',')
 	img = cv2.imread(line[-1].split('\n')[0])
 	cv2.imshow('is a train?',img)
