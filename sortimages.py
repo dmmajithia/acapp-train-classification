@@ -8,11 +8,17 @@ if len(sys.argv) != 3:
 filelist = open(sys.argv[1],'r').readlines()
 startindex = int(sys.argv[2])
 
-one_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/one_train/'
-mul_trains_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/mul_trains/'
-no_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/no_train/'
-night_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/night_train/'
-night_no_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/night_no_train/'
+# one_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/one_train/'
+# mul_trains_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/mul_trains/'
+# no_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/no_train/'
+# night_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/night_train/'
+# night_no_train_dir = '/Users/dhawal/Desktop/aqi/images/acapp_data/training_images/night_no_train/'
+
+one_train_dir = 'training_images/one_train/'
+mul_trains_dir = 'training_images/mul_trains/'
+no_train_dir = 'training_images/no_train/'
+night_train_dir = 'training_images/night_train/'
+night_no_train_dir = 'training_images/night_no_train/'
 
 ch = 'n'
 i = startindex
